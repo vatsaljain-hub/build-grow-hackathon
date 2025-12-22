@@ -13,10 +13,12 @@ import { Organizers } from './components/Organizers';
 import { FAQ } from './components/FAQ';
 import { Registration } from './components/Registration';
 import { Footer } from './components/Footer';
+import { Navbar } from './components/Navbar';
 
 export default function App() {
   return (
     <div className="min-h-screen bg-white">
+      <Navbar />
       <Hero />
       <Stats />
       <About />
