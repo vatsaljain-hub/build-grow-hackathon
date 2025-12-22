@@ -113,7 +113,7 @@ export function Organizers() {
               We're always looking for passionate volunteers to help organize future events
             </p>
             <button className="px-8 py-3 rounded-full bg-blue-600 hover:bg-blue-700 text-white shadow-lg transition-all">
-              Connect With Us!
+               Connect With Us @connect@gdgcloudpune.in
             </button>
           </div>
         </div>

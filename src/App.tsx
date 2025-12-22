@@ -20,14 +20,14 @@ export default function App() {
       <Hero />
       <Stats />
       <About />
-      <Tracks />
+      {/*<Tracks />*/}
       <Countdown />
       <ProblemStatements />
       <Schedule />
       <Prizes />
       <Sponsors />
       <Perks />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Organizers />
       <FAQ />
       <Registration />

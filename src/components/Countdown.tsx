@@ -2,10 +2,10 @@ import { useEffect, useState } from 'react';
 import { Clock } from 'lucide-react';
 
 export function Countdown() {
-  const targetDate = new Date('2025-03-15T17:00:00').getTime();
+  const targetDate = new Date('2026-01-24T17:00:00').getTime();
   
   const [timeLeft, setTimeLeft] = useState({
-    days: 34,
+    days: 0,
     hours: 0,
     minutes: 0,
     seconds: 0

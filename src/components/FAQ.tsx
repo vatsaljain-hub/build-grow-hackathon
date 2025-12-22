@@ -19,11 +19,11 @@ export function FAQ() {
     },
     {
       question: 'Do I need a team?',
-      answer: 'No! You can come solo and form a team at the event during our team formation session. You can also register with an existing team of 2-4 people.'
+      answer: 'Teams must be formed before the event. Each team should have 2 to 4 members. Solo participation is not allowed.'
     },
     {
       question: 'What can I build?',
-      answer: 'Anything! We have several challenge tracks (AI/ML, Social Impact, FinTech, etc.) but you\'re free to build whatever inspires you. Projects can be apps, websites, hardware, or anything tech-related.'
+      answer: 'Anything! We have many problem statements. But you\'re free to build whatever inspires you. Projects can be apps, websites, hardware, or anything tech-related.'
     },
     {
       question: 'Will there be mentors?',

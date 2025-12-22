@@ -25,7 +25,7 @@ export function Hero() {
         </h1>
         
         <p className="text-xl sm:text-2xl text-gray-700 mb-12 max-w-3xl mx-auto">
-          24 hours of innovation, collaboration, and creativity. Join developers, designers, and entrepreneurs to build something amazing.
+         24 hours of innovation, collaboration, and creativity—where developers, designers, and entrepreneurs harness the power of AI to build intelligent solutions that shape the future.
         </p>
 
         {/* Key Info */}

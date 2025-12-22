@@ -91,9 +91,9 @@ export function Prizes() {
         {/* Prize Image */}
         <div className="mt-12 rounded-2xl overflow-hidden shadow-lg">
           <ImageWithFallback
-            src="https://images.unsplash.com/photo-1667967699372-1c26d40dec46?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cm9waHklMjB3aW5uZXJ8ZW58MXx8fHwxNzY2MjUxNDkyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+            src="src/assets/prizes.jpeg"
             alt="Trophy"
-            className="w-full h-64 object-cover"
+            className="w-full h-96 object-cover"
           />
         </div>
       </div>
