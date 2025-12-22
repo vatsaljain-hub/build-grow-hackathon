@@ -62,10 +62,10 @@ export function About() {
           
           <div className="space-y-6">
             <p className="text-lg text-gray-700">
-              BuildAndGrow is more than just a hackathon - it's a launchpad for the next generation of tech innovators. Over 24 hours, you'll collaborate with talented individuals, receive mentorship from industry leaders, and build solutions that matter.
+              BuildAndGrow is more than just a hackathon — it’s a launchpad for the next generation of tech innovators. Over 24 hours, you’ll collaborate with talented individuals, receive mentorship from industry leaders, and design intelligent, AI-driven solutions that make real-world impact.
             </p>
             <p className="text-lg text-gray-700">
-              Whether you're a seasoned developer, a creative designer, or a business enthusiast, there's a place for you here. Form teams, tackle challenges, and compete for incredible prizes while making lasting connections.
+              This year, participants will explore the power of Agentic AI — building systems that can reason, plan, and act autonomously to solve complex problems. Whether you’re a seasoned developer, a creative designer, or a business enthusiast, there’s a place for you here. Form teams, tackle meaningful challenges, and compete for incredible prizes while building lasting connections and shaping the future of intelligent technology.
             </p>
           </div>
         </div>
