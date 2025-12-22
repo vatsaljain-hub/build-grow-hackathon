@@ -22,6 +22,7 @@ export function Navbar() {
     // { name: 'Schedule', href: '#schedule' },
     { name: 'Prizes', href: '#prizes' },
     { name: 'Sponsors', href: '#sponsors' },
+    { name: 'Organizers', href: '#organizers' },
     { name: 'FAQ', href: '#faq' },
   ];
 
@@ -121,12 +122,12 @@ export function Navbar() {
                 </button>
               );
             })}
-            <button
+            {/* <button
               onClick={() => scrollToSection('#registration')}
               className="w-full px-6 py-3 rounded-full bg-gradient-to-r from-blue-600 to-green-600 hover:from-blue-700 hover:to-green-700 text-white shadow-lg transition-all"
             >
               Register Now
-            </button>
+            </button> */}
           </div>
         </div>
       )}
