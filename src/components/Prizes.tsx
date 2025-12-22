@@ -1,5 +1,6 @@
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { Trophy, Medal, Award, Gift } from 'lucide-react';
+import prizeImage from '@/assets/prizes.jpeg';
 
 export function Prizes() {
   const prizes = [
@@ -91,7 +92,7 @@ export function Prizes() {
         {/* Prize Image */}
         <div className="mt-12 rounded-2xl overflow-hidden shadow-lg">
           <ImageWithFallback
-            src="src/assets/prizes.jpeg"
+            src={prizeImage}
             alt="Trophy"
             className="w-full h-96 object-cover"
           />

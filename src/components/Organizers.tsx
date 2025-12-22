@@ -1,12 +1,13 @@
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { Linkedin, Twitter, Mail } from 'lucide-react';
+import antrikshImage from '@/assets/Antrixsh_Gupta.jpeg';
 
 export function Organizers() {
   const team = [
     {
       name: 'Antrixsh Gupta',
       role: 'Organizer',
-      image: 'src/assets/Antrixsh_Gupta.jpeg',
+      image: antrikshImage,
       bio: 'Senior Manager Data & AI Practice @ Genezeon',
       color: 'blue',
       linkedin: 'https://linkedin.com/in/alexrivera',
