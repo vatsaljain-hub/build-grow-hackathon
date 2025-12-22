@@ -32,12 +32,12 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-yellow-600 transition-colors">
+                <a href="#sponsors" className="text-gray-600 hover:text-yellow-600 transition-colors">
                   Sponsors
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-green-600 transition-colors">
+                <a href="#organizers" className="text-gray-600 hover:text-green-600 transition-colors">
                   Contact
                 </a>
               </li>
@@ -48,22 +48,22 @@ export function Footer() {
             <h4 className="text-gray-800 mb-4">Resources</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
-                  Code of Conduct
+                <a href="https://www.google.com/events/policy/anti-harassmentpolicy.html" className="text-gray-600 hover:text-blue-600 transition-colors">
+                  Community Guidelines
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-red-600 transition-colors">
+                <a href="https://policies.google.com/terms" className="text-gray-600 hover:text-red-600 transition-colors">
                   Privacy Policy
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#" className="text-gray-600 hover:text-yellow-600 transition-colors">
                   Past Events
                 </a>
-              </li>
+              </li> */}
               <li>
-                <a href="#" className="text-gray-600 hover:text-green-600 transition-colors">
+                <a href="#faq" className="text-gray-600 hover:text-green-600 transition-colors">
                   FAQs
                 </a>
               </li>
@@ -74,28 +74,28 @@ export function Footer() {
             <h4 className="text-gray-800 mb-4">Connect</h4>
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://x.com/gdgcloudpune"
                 className="w-10 h-10 rounded-full bg-blue-600 hover:bg-blue-700 flex items-center justify-center transition-all"
                 aria-label="Twitter"
               >
                 <Twitter className="w-5 h-5 text-white" />
               </a>
               <a
-                href="#"
+                href="https://github.com/GDG-Cloud-Pune"
                 className="w-10 h-10 rounded-full bg-red-600 hover:bg-red-700 flex items-center justify-center transition-all"
                 aria-label="GitHub"
               >
                 <Github className="w-5 h-5 text-white" />
               </a>
               <a
-                href="#"
+                href="https://in.linkedin.com/company/gdg-cloud-pune"
                 className="w-10 h-10 rounded-full bg-yellow-500 hover:bg-yellow-600 flex items-center justify-center transition-all"
                 aria-label="LinkedIn"
               >
                 <Linkedin className="w-5 h-5 text-white" />
               </a>
               <a
-                href="#"
+                href="mailto:connect@gdgcloudpune.in"
                 className="w-10 h-10 rounded-full bg-green-600 hover:bg-green-700 flex items-center justify-center transition-all"
                 aria-label="Email"
               >
