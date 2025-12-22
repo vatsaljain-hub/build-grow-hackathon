@@ -10,8 +10,8 @@ export function Organizers() {
       image: antrikshImage,
       bio: 'Senior Manager Data & AI Practice @ Genezeon',
       color: 'blue',
-      linkedin: 'https://linkedin.com/in/alexrivera',
-      twitter: 'https://twitter.com/alexrivera',
+      linkedin: 'https://in.linkedin.com/in/antrixshgupta',
+      twitter: 'https://x.com/antrixshg',
       email: 'antrixsh@gmail.com'
     },
     {
@@ -20,8 +20,8 @@ export function Organizers() {
       image: 'https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/pratik_kale_JE4xYmT.jpeg',
       bio: 'Software Engineer @ Impulsive Web',
       color: 'red',
-      linkedin: 'https://linkedin.com/in/sarahkim',
-      twitter: 'https://twitter.com/sarahkim',
+      linkedin: 'https://in.linkedin.com/in/pratikkalein',
+      twitter: 'https://x.com/pratikkalein',
       email: 'ppvkale@gmail.com'
     },
     {
@@ -30,8 +30,8 @@ export function Organizers() {
       image: 'https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/vatsal_jain_9uuB5SU.jpg',
       bio: 'Software Engineer @ vConstruct',
       color: 'yellow',
-      linkedin: 'https://linkedin.com/in/marcuschen',
-      twitter: 'https://twitter.com/marcuschen',
+      linkedin: 'https://in.linkedin.com/in/vatsaljain0205',
+      twitter: 'https://x.com/vatsalj04188580',
       email: 'vatsaljain780@gmail.com'
     }
   ];
