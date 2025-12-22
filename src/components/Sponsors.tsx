@@ -115,9 +115,13 @@ export function Sponsors() {
             <p className="text-gray-600 mb-6">
               Partner with us to support innovation and connect with top talent
             </p>
-            <button className="px-8 py-3 rounded-full bg-blue-600 hover:bg-blue-700 text-white shadow-lg transition-all">
+            <a
+              href="mailto:connect@gdgcloudpune.in"
+              className="inline-block px-8 py-3 rounded-full bg-blue-600 hover:bg-blue-700 text-white shadow-lg transition-all"
+            >
               Connect With Us @connect@gdgcloudpune.in
-            </button>
+            </a>
+
           </div>
         </div>
       </div>

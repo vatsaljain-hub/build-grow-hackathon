@@ -137,16 +137,26 @@ export function ProblemStatements() {
             </p>
           </div>
 
-          
-            <div className="p-8 rounded-2xl bg-green-50 border-2 border-green-500 text-center shadow-lg">
-              <div className="w-16 h-16 rounded-full bg-green-500 flex items-center justify-center mx-auto mb-4">
-                <CheckCircle2 className="w-8 h-8 text-white" />
-              </div>
-              <h3 className="text-2xl text-gray-800 mb-2">Mail Your Problem Statement To connect@gdgcloudpune.in!</h3>
-              <p className="text-gray-700">
-                We'll review your submission and get back to you within 48 hours.
-              </p>
+
+          <div className="p-8 rounded-2xl bg-green-50 border-2 border-green-500 text-center shadow-lg">
+            <div className="w-16 h-16 rounded-full bg-green-500 flex items-center justify-center mx-auto mb-4">
+              <CheckCircle2 className="w-8 h-8 text-white" />
             </div>
+            <h3 className="text-2xl text-gray-800 mb-2">
+              Mail your problem statement to{' '}
+              <a
+                href="mailto:connect@gdgcloudpune.in"
+                className="text-blue-600 hover:text-blue-700 underline"
+              >
+                connect@gdgcloudpune.in
+              </a>
+              !
+            </h3>
+
+            <p className="text-gray-700">
+              We'll review your submission and get back to you within 48 hours.
+            </p>
+          </div>
         </div>
 
         {/* Benefits Section */}

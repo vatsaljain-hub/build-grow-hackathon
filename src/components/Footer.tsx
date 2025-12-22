@@ -103,7 +103,7 @@ export function Footer() {
               </a>
             </div>
             <p className="text-gray-600 mt-4">
-              <a href="mailto:hello@buildthefuture.io" className="hover:text-blue-600 transition-colors">
+              <a href="mailto:connect@gdgcloudpune.in" className="hover:text-blue-600 transition-colors">
                 connect@gdgcloudpune.in
               </a>
             </p>

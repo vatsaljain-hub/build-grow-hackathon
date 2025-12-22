@@ -83,7 +83,7 @@ export function Organizers() {
                   {member.role}
                 </p>
                 <p className="text-gray-600 text-sm mb-4">{member.bio}</p>
-                
+
                 <div className="flex gap-3">
                   {member.linkedin && (
                     <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className={`w-8 h-8 rounded-full bg-gray-200 ${socialColors[member.color as keyof typeof socialColors]} flex items-center justify-center transition-all group`} aria-label="LinkedIn">
@@ -113,9 +113,13 @@ export function Organizers() {
             <p className="text-gray-600 mb-6 max-w-2xl">
               We're always looking for passionate volunteers to help organize future events
             </p>
-            <button className="px-8 py-3 rounded-full bg-blue-600 hover:bg-blue-700 text-white shadow-lg transition-all">
-               Connect With Us @connect@gdgcloudpune.in
-            </button>
+            <a
+              href="mailto:connect@gdgcloudpune.in"
+              className="inline-block px-8 py-3 rounded-full bg-blue-600 hover:bg-blue-700 text-white shadow-lg transition-all"
+            >
+              Connect With Us @connect@gdgcloudpune.in
+            </a>
+
           </div>
         </div>
       </div>
