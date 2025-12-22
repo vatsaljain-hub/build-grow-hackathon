@@ -6,7 +6,7 @@ export function Organizers() {
     {
       name: 'Antrixsh Gupta',
       role: 'Organizer',
-      image: 'https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/antrixsh_gupta.jpg',
+      image: 'src/assets/Antrixsh_Gupta.jpeg',
       bio: 'Senior Manager Data & AI Practice @ Genezeon',
       color: 'blue',
       linkedin: 'https://linkedin.com/in/alexrivera',
