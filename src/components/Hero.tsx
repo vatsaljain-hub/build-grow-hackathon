@@ -50,7 +50,7 @@ export function Hero() {
             onClick={() => document.getElementById('registration')?.scrollIntoView({ behavior: 'smooth' })}
             className="px-8 py-4 rounded-full bg-blue-600 hover:bg-blue-700 transition-all text-white shadow-lg hover:shadow-xl"
           >
-            Register Now
+            Coming Soon!
           </button>
           <button 
             onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
