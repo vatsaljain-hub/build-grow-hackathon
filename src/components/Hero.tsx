@@ -14,7 +14,7 @@ export function Hero() {
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border-2 border-blue-500 mb-8 shadow-lg">
           <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
-          <span className="text-gray-700">Applications Open</span>
+          <span className="text-gray-700">Coming Soon</span>
         </div>
         
         <h1 className="text-5xl sm:text-6xl lg:text-7xl mb-6">
