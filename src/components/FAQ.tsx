@@ -31,7 +31,7 @@ export function FAQ() {
     },
     {
       question: 'What about food and sleep?',
-      answer: 'We provide all meals and snacks throughout the 48 hours. The venue is open 24/7, and we have designated quiet areas if you need to rest.'
+      answer: 'We provide all meals and snacks throughout the 24 hours. The venue is open 24/7, and we have designated quiet areas if you need to rest.'
     },
     {
       question: 'How are projects judged?',
