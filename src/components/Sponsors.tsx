@@ -1,3 +1,5 @@
+import sponsor3 from '@/assets/danalitic_logo.png';
+
 export function Sponsors() {
   const sponsors = {
     Sponsor: [
@@ -10,6 +12,11 @@ export function Sponsors() {
         name: '',
         color: 'red',
         logo: 'https://www.data-axle.com/india/wp-content/uploads/sites/5/2025/10/data_axle_horizontal_black_blue_crop-1-1.svg' // replace with real logo
+      },
+      {
+        name: '',
+        color: 'red',
+        logo: sponsor3 // replace with real logo
       }
     ],
     // Commenting Gold and Silver sponsors for now
@@ -119,7 +126,7 @@ export function Sponsors() {
               href="mailto:connect@gdgcloudpune.in"
               className="inline-block px-8 py-3 rounded-full bg-blue-600 hover:bg-blue-700 text-white shadow-lg transition-all"
             >
-              Connect With Us @connect@gdgcloudpune.in
+              Connect With Us at connect@gdgcloudpune.in
             </a>
 
           </div>
