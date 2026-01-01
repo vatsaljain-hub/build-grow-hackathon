@@ -71,11 +71,11 @@ export function Hero() {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      {/* <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
         <div className="w-6 h-10 rounded-full border-2 border-blue-600 flex items-start justify-center p-2">
           <div className="w-1 h-3 rounded-full bg-blue-600"></div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
