@@ -7,7 +7,7 @@ export function FAQ() {
   const faqs = [
     {
       question: 'Who can participate?',
-      answer: 'Anyone! Whether you\'re a student, professional, or hobbyist - if you\'re passionate about technology and innovation, you\'re welcome to join. Teams can have 2-4 members.'
+      answer: 'Anyone! Whether you\'re a student, professional, or hobbyist - if you\'re passionate about technology and innovation, you\'re welcome to join. Teams can have 1-3 members.'
     },
     {
       question: 'How much does it cost?',
@@ -19,7 +19,7 @@ export function FAQ() {
     },
     {
       question: 'Do I need a team?',
-      answer: 'Teams must be formed before the event. Each team should have 2 to 4 members. Solo participation is not allowed.'
+      answer: 'Teams must be formed before the event. Each team should have 1 to 3 members. Solo participation is allowed.'
     },
     {
       question: 'What can I build?',

@@ -42,32 +42,32 @@ export function ProblemStatements() {
   const existingProblems = [
     {
       company: 'HealthTech Solutions',
-      title: 'AI-Powered Medical Diagnosis Assistant',
+     // title: 'AI-Powered Medical Diagnosis Assistant',
       category: 'AI & Healthcare',
       color: 'blue',
-      prize: '$2,000'
+      //prize: '$2,000'
     },
     {
-      company: 'GreenEarth Initiative',
-      title: 'Carbon Footprint Tracking App',
+      company: 'Agritech',
+     // title: 'Carbon Footprint Tracking App',
       category: 'Sustainability',
       color: 'green',
-      prize: '$1,500'
+     // prize: '$1,500'
     },
-    {
-      company: 'FinanceFlow',
-      title: 'Smart Budget Management for Gen-Z',
-      category: 'FinTech',
-      color: 'yellow',
-      prize: '$1,500'
-    },
-    {
-      company: 'EduConnect',
-      title: 'Personalized Learning Platform',
-      category: 'Education',
-      color: 'red',
-      prize: '$1,000'
-    }
+    // {
+    //   company: 'FinanceFlow',
+    //   title: 'Smart Budget Management for Gen-Z',
+    //   category: 'FinTech',
+    //   color: 'yellow',
+    //   prize: '$1,500'
+    // },
+    // {
+    //   company: 'EduConnect',
+    //   title: 'Personalized Learning Platform',
+    //   category: 'Education',
+    //   color: 'red',
+    //   prize: '$1,000'
+    // }
   ];
 
   const colorClasses = {
@@ -89,12 +89,12 @@ export function ProblemStatements() {
             </h2>
           </div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Companies submit real-world challenges for participants to solve
+            Below are real-world challenges for participants to solve
           </p>
         </div>
 
         {/* Existing Problem Statements */}
-        {/* <div className="mb-16">
+        <div className="mb-16">
           <h3 className="text-2xl text-gray-800 mb-8 text-center">
             <span className="text-blue-600">Current </span>
             <span className="text-red-600">Challenges</span>
@@ -116,14 +116,14 @@ export function ProblemStatements() {
                       <span className={`px-3 py-1 rounded-full text-sm ${colorClasses[problem.color as keyof typeof colorClasses].split(' ')[1]} ${colorClasses[problem.color as keyof typeof colorClasses].split(' ')[2]}`}>
                         {problem.category}
                       </span>
-                      <span className="text-green-600">Prize: {problem.prize}</span>
+                      {/* <span className="text-green-600">Prize: {problem.prize}</span> */}
                     </div>
                   </div>
                 </div>
               </div>
             ))}
           </div>
-        </div> */}
+        </div>
 
         {/* Submit Problem Statement Form */}
         <div className="max-w-3xl mx-auto">

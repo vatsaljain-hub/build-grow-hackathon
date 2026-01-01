@@ -14,7 +14,7 @@ export function Hero() {
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border-2 border-blue-500 mb-8 shadow-lg">
           <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
-          <span className="text-gray-700">Coming Soon</span>
+          <span className="text-gray-700">Register Now</span>
         </div>
         
         <h1 className="text-5xl sm:text-6xl lg:text-7xl mb-6">
@@ -46,12 +46,21 @@ export function Hero() {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button 
-            onClick={() => document.getElementById('registration')?.scrollIntoView({ behavior: 'smooth' })}
-            className="px-8 py-4 rounded-full bg-blue-600 hover:bg-blue-700 transition-all text-white shadow-lg hover:shadow-xl"
-          >
-            Coming Soon!
-          </button>
+  <a
+  href="https://luma.com/event/evt-LWX8PnUfs4Xq5Us"
+  className="luma-checkout--button px-8 py-4 rounded-full bg-blue-600 hover:bg-blue-700 transition-all text-white shadow-lg hover:shadow-xl inline-block"
+  data-luma-action="checkout"
+  data-luma-event-id="evt-LWX8PnUfs4Xq5Us"
+  target="_blank"
+>
+  Register Now!
+</a>
+
+<script
+  id="luma-checkout"
+  src="https://embed.lu.ma/checkout-button.js"
+></script>
+
           <button 
             onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
             className="px-8 py-4 rounded-full bg-white hover:bg-gray-50 transition-all text-gray-700 border-2 border-gray-300 shadow-lg hover:shadow-xl"

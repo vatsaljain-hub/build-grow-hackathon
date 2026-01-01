@@ -70,7 +70,7 @@ export function Countdown() {
             onClick={() => document.getElementById('registration')?.scrollIntoView({ behavior: 'smooth' })}
             className="px-8 py-4 rounded-full bg-white text-blue-600 hover:bg-gray-100 transition-all shadow-2xl text-lg"
           >
-            Coming Soon!
+            Register Now! Before It's too late.
           </button>
         </div>
       </div>

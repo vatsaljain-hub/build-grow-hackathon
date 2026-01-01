@@ -122,12 +122,15 @@ export function Navbar() {
                 </button>
               );
             })}
-            {/* <button
-              onClick={() => scrollToSection('#registration')}
-              className="w-full px-6 py-3 rounded-full bg-gradient-to-r from-blue-600 to-green-600 hover:from-blue-700 hover:to-green-700 text-white shadow-lg transition-all"
-            >
-              Register Now
-            </button> */}
+            <a
+  href="https://luma.com/event/evt-LWX8PnUfs4Xq5Us"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-full px-6 py-3 rounded-full bg-gradient-to-r from-blue-600 to-green-600 hover:from-blue-700 hover:to-green-700 text-white shadow-lg transition-all text-center inline-block"
+>
+  Register Now
+</a>
+
           </div>
         </div>
       )}
