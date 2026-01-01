@@ -21,7 +21,7 @@ export function Hero() {
           <span className="text-blue-600">Build</span>
           <span className="text-red-600">And</span>
           <span className="text-yellow-500">Grow</span>
-          <span className="text-green-600"> 2025</span>
+          <span className="text-green-600"> AI Hackathon</span>
         </h1>
         
         <p className="text-xl sm:text-2xl text-gray-700 mb-12 max-w-3xl mx-auto">
@@ -46,7 +46,7 @@ export function Hero() {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-  <a
+  <a id ="Register"
   href="https://luma.com/event/evt-LWX8PnUfs4Xq5Us"
   className="luma-checkout--button px-8 py-4 rounded-full bg-blue-600 hover:bg-blue-700 transition-all text-white shadow-lg hover:shadow-xl inline-block"
   data-luma-action="checkout"

@@ -67,11 +67,24 @@ export function Countdown() {
 
         <div className="mt-12 text-center">
           <button
-            onClick={() => document.getElementById('registration')?.scrollIntoView({ behavior: 'smooth' })}
-            className="px-8 py-4 rounded-full bg-white text-blue-600 hover:bg-gray-100 transition-all shadow-2xl text-lg"
-          >
-            Register Now! Before It's too late.
-          </button>
+  onClick={() => {
+    document
+      .getElementById('register')
+      ?.scrollIntoView({ behavior: 'smooth' });
+
+    setTimeout(() => {
+      window.open(
+        'https://luma.com/event/evt-LWX8PnUfs4Xq5Us',
+        '_blank',
+        'noopener,noreferrer'
+      );
+    }, 600); // delay to allow scroll animation
+  }}
+  className="px-8 py-4 rounded-full bg-white text-blue-600 hover:bg-gray-100 transition-all shadow-2xl text-lg"
+>
+  Register Now! Before It's too late.
+</button>
+
         </div>
       </div>
     </section>
